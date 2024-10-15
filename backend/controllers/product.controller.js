@@ -31,7 +31,7 @@ export const createProducts = async (req, res) => {
 
 export const updateProduct = async (req, res) => {
   const { id } = req.params;
-
+ 
   const product = req.body;
 
   if (!mongoose.Types.ObjectId.isValid(id)) {
