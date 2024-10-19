@@ -18,7 +18,7 @@ const Navbar = () => {
         flexDirection={{ base: "column", sm: "row" }}
       >
         <Text
-          bgGradient="linear(to-l, #7928CA, #FF0080)"
+          bgGradient="linear(to-r, cyan.400, blue.500)"
           fontSize={{ base: "22", sm: "28" }}
           fontWeight="bold"
           textTransform="uppercase"
